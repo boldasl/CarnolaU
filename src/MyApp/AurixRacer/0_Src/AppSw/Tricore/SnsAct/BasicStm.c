@@ -165,7 +165,7 @@ void BasicStm_init(void)
     appTaskfu_init();
 
     /* enable interrupts again */
-    IfxCpu_restoreInterrupts(interruptState);
+    IfxCpu_restoreInterrupts(interruptState);//
 }
 
 
